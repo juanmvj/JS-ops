@@ -1,0 +1,26 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.done
+{
+    color:green;
+    text-decoration: line-through;
+}
+ul > li{
+    font-size: 3rem;
+}
+.close{
+    margin-left: 1rem;
+    color:red;
+    font-size: 2rem;
+}
